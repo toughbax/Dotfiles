@@ -1,0 +1,170 @@
+{"level":"info","msg":"language: en-CA","time":"2023-08-12T04:24:37-07:00"}
+{"command":"git --version","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"git --version (10.556938ms)","time":"2023-08-12T04:24:37-07:00"}
+{"command":"git rev-parse --git-dir","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"git rev-parse --git-dir (8.391153ms)","time":"2023-08-12T04:24:37-07:00"}
+{"command":"git rev-parse --is-bare-repository","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"git rev-parse --is-bare-repository (10.408209ms)","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"starting main loop","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"Binary is not built with the buildBinary flag so we won't check for an update","time":"2023-08-12T04:24:37-07:00"}
+{"command":"git rev-parse --is-bare-repository","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:37-07:00"}
+{"command":"git fetch --all","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"git rev-parse --is-bare-repository (9.158081ms)","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"refreshing all scopes in async mode","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"Refresh took 113.805µs","time":"2023-08-12T04:24:37-07:00"}
+{"command":"git stash list -z --pretty=%gs","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:37-07:00"}
+{"command":"git merge-base HEAD HEAD@{u}","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:37-07:00"}
+{"command":"git for-each-ref --sort=-committerdate --format=%(HEAD)%00%(refname:short)%00%(upstream:short)%00%(upstream:track)%00%(subject)%00%(objectname) refs/heads","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:37-07:00"}
+{"command":"git worktree list --porcelain","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:37-07:00"}
+{"command":"git tag --list -n --sort=-creatordate","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:37-07:00"}
+{"command":"git rev-parse --symbolic-full-name main@{u}","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:37-07:00"}
+{"command":"git rev-parse --symbolic-full-name master@{u}","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"git merge-base HEAD HEAD@{u} (14.035704ms)","time":"2023-08-12T04:24:37-07:00"}
+{"level":"debug","msg":"Error getting git config value for key: status.showUntrackedFiles. Error: the key is not found for [git config --get --null status.showUntrackedFiles]","time":"2023-08-12T04:24:37-07:00"}
+{"command":"git status --untracked-files=all --porcelain -z","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"git for-each-ref --sort=-committerdate --format=%(HEAD)%00%(refname:short)%00%(upstream:short)%00%(upstream:track)%00%(subject)%00%(objectname) refs/heads (20.596594ms)","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"git branch -r (32.215811ms)","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"postRefreshUpdate for remotes took 263.254µs","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"postRefreshUpdate for remoteBranches took 12.973µs","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"git worktree list --porcelain (34.357959ms)","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"git rev-parse --symbolic-full-name master@{u} (32.051568ms)","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"postRefreshUpdate for localBranches took 16.744978ms","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"git tag --list -n --sort=-creatordate (34.336765ms)","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"postRefreshUpdate for tags took 20.622µs","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"postRefreshUpdate for localBranches took 3.101445ms","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"postRefreshUpdate for worktrees took 67.848µs","time":"2023-08-12T04:24:37-07:00"}
+{"command":"git rev-parse --symbolic-full-name main@{u}","level":"error","msg":"fatal: no such branch: 'main'\n","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"git rev-parse --symbolic-full-name main@{u} (39.9399ms)","time":"2023-08-12T04:24:37-07:00"}
+{"command":"git rev-parse --verify --quiet refs/remotes/origin/main","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"git stash list -z --pretty=%gs (46.827626ms)","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"postRefreshUpdate for stash took 535.365µs","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"git log HEAD --topo-order --oneline --pretty=format:%H%x00%at%x00%aN%x00%ae%x00%D%x00%p%x00%s --abbrev=40 -300 --no-show-signature -- (54.228182ms)","time":"2023-08-12T04:24:37-07:00"}
+{"level":"debug","msg":"Error getting git config value for key: rebase.updateRefs. Error: the key is not found for [git config --get --null rebase.updateRefs]","time":"2023-08-12T04:24:37-07:00"}
+{"command":"git rev-parse --verify --quiet refs/remotes/origin/main","level":"error","msg":"","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"git rev-parse --verify --quiet refs/remotes/origin/main (19.217149ms)","time":"2023-08-12T04:24:37-07:00"}
+{"command":"git rev-parse --verify --quiet refs/heads/main","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"git -c log.showSignature=false log -g --abbrev=40 --format=%h%x00%ct%x00%gs%x00%p (71.301574ms)","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"git status --untracked-files=all --porcelain -z (58.540141ms)","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"postRefreshUpdate for submodules took 22.313µs","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"postRefreshUpdate for files took 55.426µs","time":"2023-08-12T04:24:37-07:00"}
+{"command":"git rev-parse --verify --quiet refs/heads/main","level":"error","msg":"","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"git rev-parse --verify --quiet refs/heads/main (12.223667ms)","time":"2023-08-12T04:24:37-07:00"}
+{"command":"git merge-base HEAD refs/remotes/origin/master","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"postRefreshUpdate for reflogCommits took 11.462741ms","time":"2023-08-12T04:24:37-07:00"}
+{"command":"git for-each-ref --sort=-committerdate --format=%(HEAD)%00%(refname:short)%00%(upstream:short)%00%(upstream:track)%00%(subject)%00%(objectname) refs/heads","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"git merge-base HEAD refs/remotes/origin/master (23.007051ms)","time":"2023-08-12T04:24:37-07:00"}
+{"command":"git rev-parse --abbrev-ref --verify HEAD","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"git for-each-ref --sort=-committerdate --format=%(HEAD)%00%(refname:short)%00%(upstream:short)%00%(upstream:track)%00%(subject)%00%(objectname) refs/heads (16.479192ms)","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"postRefreshUpdate for localBranches took 187.305µs","time":"2023-08-12T04:24:37-07:00"}
+{"level":"debug","msg":"using cache for key rebase.updateRefs","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"git rev-parse --abbrev-ref --verify HEAD (12.606036ms)","time":"2023-08-12T04:24:37-07:00"}
+{"level":"debug","msg":"using cache for key rebase.updateRefs","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"postRefreshUpdate for commits took 4.43175ms","time":"2023-08-12T04:24:37-07:00"}
+{"level":"info","msg":"refreshing the following scopes in sync mode: files","time":"2023-08-12T04:24:47-07:00"}
+{"level":"debug","msg":"using cache for key status.showUntrackedFiles","time":"2023-08-12T04:24:47-07:00"}
+{"level":"info","msg":"refreshed merge conflicts in 26.892µs","time":"2023-08-12T04:24:47-07:00"}
+{"command":"git status --untracked-files=all --porcelain -z","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:47-07:00"}
+{"level":"info","msg":"git status --untracked-files=all --porcelain -z (20.872463ms)","time":"2023-08-12T04:24:47-07:00"}
+{"level":"info","msg":"refreshed files in 21.40167ms","time":"2023-08-12T04:24:47-07:00"}
+{"level":"info","msg":"Refresh took 21.551518ms","time":"2023-08-12T04:24:47-07:00"}
+{"level":"info","msg":"postRefreshUpdate for submodules took 35.071µs","time":"2023-08-12T04:24:47-07:00"}
+{"level":"info","msg":"postRefreshUpdate for files took 42.44µs","time":"2023-08-12T04:24:47-07:00"}
+{"level":"info","msg":"Receiving focus - refreshing","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"refreshing all scopes in async mode","time":"2023-08-12T04:24:50-07:00"}
+{"command":"git worktree list --porcelain","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:50-07:00"}
+{"command":"git merge-base HEAD refs/remotes/origin/master","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:50-07:00"}
+{"level":"debug","msg":"using cache for key status.showUntrackedFiles","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"Refresh took 2.643678ms","time":"2023-08-12T04:24:50-07:00"}
+{"command":"git merge-base HEAD HEAD@{u}","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:50-07:00"}
+{"command":"git tag --list -n --sort=-creatordate","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:50-07:00"}
+{"command":"git status --untracked-files=all --porcelain -z","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:50-07:00"}
+{"command":"git stash list -z --pretty=%gs","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"git worktree list --porcelain (14.320685ms)","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"postRefreshUpdate for localBranches took 172.754µs","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"postRefreshUpdate for worktrees took 28.852µs","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"git branch -r (17.360547ms)","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"postRefreshUpdate for remotes took 214.081µs","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"postRefreshUpdate for remoteBranches took 25.96µs","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"git -c log.showSignature=false log -g --abbrev=40 --format=%h%x00%ct%x00%gs%x00%p (22.960055ms)","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"git merge-base HEAD HEAD@{u} (20.658502ms)","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"postRefreshUpdate for reflogCommits took 8.371615ms","time":"2023-08-12T04:24:50-07:00"}
+{"command":"git for-each-ref --sort=-committerdate --format=%(HEAD)%00%(refname:short)%00%(upstream:short)%00%(upstream:track)%00%(subject)%00%(objectname) refs/heads","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"git tag --list -n --sort=-creatordate (30.242319ms)","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"postRefreshUpdate for tags took 35.717µs","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"git log HEAD --topo-order --oneline --pretty=format:%H%x00%at%x00%aN%x00%ae%x00%D%x00%p%x00%s --abbrev=40 -300 --no-show-signature -- (41.989706ms)","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"git merge-base HEAD refs/remotes/origin/master (44.841591ms)","time":"2023-08-12T04:24:50-07:00"}
+{"command":"git rev-parse --abbrev-ref --verify HEAD","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"git stash list -z --pretty=%gs (39.261815ms)","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"postRefreshUpdate for stash took 797.97µs","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"git for-each-ref --sort=-committerdate --format=%(HEAD)%00%(refname:short)%00%(upstream:short)%00%(upstream:track)%00%(subject)%00%(objectname) refs/heads (20.60273ms)","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"postRefreshUpdate for localBranches took 116.771µs","time":"2023-08-12T04:24:50-07:00"}
+{"level":"debug","msg":"using cache for key rebase.updateRefs","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"git status --untracked-files=all --porcelain -z (50.463921ms)","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"postRefreshUpdate for submodules took 7.681µs","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"postRefreshUpdate for files took 4.267µs","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"git rev-parse --abbrev-ref --verify HEAD (12.515261ms)","time":"2023-08-12T04:24:50-07:00"}
+{"level":"debug","msg":"using cache for key rebase.updateRefs","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"postRefreshUpdate for commits took 4.598885ms","time":"2023-08-12T04:24:50-07:00"}
+{"level":"info","msg":"refreshing the following scopes in sync mode: files","time":"2023-08-12T04:24:57-07:00"}
+{"level":"debug","msg":"using cache for key status.showUntrackedFiles","time":"2023-08-12T04:24:57-07:00"}
+{"level":"info","msg":"refreshed merge conflicts in 16.912µs","time":"2023-08-12T04:24:57-07:00"}
+{"command":"git status --untracked-files=all --porcelain -z","level":"debug","msg":"RunCommand","time":"2023-08-12T04:24:57-07:00"}
+{"level":"info","msg":"git status --untracked-files=all --porcelain -z (23.603989ms)","time":"2023-08-12T04:24:57-07:00"}
+{"level":"info","msg":"refreshed files in 24.231375ms","time":"2023-08-12T04:24:57-07:00"}
+{"level":"info","msg":"postRefreshUpdate for submodules took 21.487µs","time":"2023-08-12T04:24:57-07:00"}
+{"level":"info","msg":"postRefreshUpdate for files took 18.851µs","time":"2023-08-12T04:24:57-07:00"}
+{"level":"info","msg":"Refresh took 24.546155ms","time":"2023-08-12T04:24:57-07:00"}
+{"level":"info","msg":"Receiving focus - refreshing","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"refreshing all scopes in async mode","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"Refresh took 126.118µs","time":"2023-08-12T04:25:04-07:00"}
+{"level":"debug","msg":"using cache for key status.showUntrackedFiles","time":"2023-08-12T04:25:04-07:00"}
+{"command":"git tag --list -n --sort=-creatordate","level":"debug","msg":"RunCommand","time":"2023-08-12T04:25:04-07:00"}
+{"command":"git status --untracked-files=all --porcelain -z","level":"debug","msg":"RunCommand","time":"2023-08-12T04:25:04-07:00"}
+{"command":"git merge-base HEAD refs/remotes/origin/master","level":"debug","msg":"RunCommand","time":"2023-08-12T04:25:04-07:00"}
+{"command":"git merge-base HEAD HEAD@{u}","level":"debug","msg":"RunCommand","time":"2023-08-12T04:25:04-07:00"}
+{"command":"git stash list -z --pretty=%gs","level":"debug","msg":"RunCommand","time":"2023-08-12T04:25:04-07:00"}
+{"command":"git worktree list --porcelain","level":"debug","msg":"RunCommand","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"git tag --list -n --sort=-creatordate (16.351327ms)","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"postRefreshUpdate for tags took 27.246µs","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"git merge-base HEAD HEAD@{u} (19.162527ms)","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"git -c log.showSignature=false log -g --abbrev=40 --format=%h%x00%ct%x00%gs%x00%p (25.945672ms)","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"git worktree list --porcelain (30.780159ms)","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"postRefreshUpdate for localBranches took 89.775µs","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"postRefreshUpdate for worktrees took 28.838µs","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"git branch -r (44.374222ms)","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"git log HEAD --topo-order --oneline --pretty=format:%H%x00%at%x00%aN%x00%ae%x00%D%x00%p%x00%s --abbrev=40 -300 --no-show-signature -- (44.585523ms)","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"postRefreshUpdate for remotes took 48.352µs","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"postRefreshUpdate for remoteBranches took 7.058µs","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"postRefreshUpdate for reflogCommits took 16.89504ms","time":"2023-08-12T04:25:04-07:00"}
+{"command":"git for-each-ref --sort=-committerdate --format=%(HEAD)%00%(refname:short)%00%(upstream:short)%00%(upstream:track)%00%(subject)%00%(objectname) refs/heads","level":"debug","msg":"RunCommand","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"git status --untracked-files=all --porcelain -z (45.814949ms)","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"git merge-base HEAD refs/remotes/origin/master (46.584671ms)","time":"2023-08-12T04:25:04-07:00"}
+{"command":"git rev-parse --abbrev-ref --verify HEAD","level":"debug","msg":"RunCommand","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"postRefreshUpdate for submodules took 2.223609ms","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"postRefreshUpdate for files took 117.096µs","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"git rev-parse --abbrev-ref --verify HEAD (14.683363ms)","time":"2023-08-12T04:25:04-07:00"}
+{"level":"debug","msg":"using cache for key rebase.updateRefs","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"git stash list -z --pretty=%gs (62.540137ms)","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"postRefreshUpdate for stash took 166.007µs","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"git for-each-ref --sort=-committerdate --format=%(HEAD)%00%(refname:short)%00%(upstream:short)%00%(upstream:track)%00%(subject)%00%(objectname) refs/heads (19.186526ms)","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"postRefreshUpdate for localBranches took 82.26µs","time":"2023-08-12T04:25:04-07:00"}
+{"level":"debug","msg":"using cache for key rebase.updateRefs","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"postRefreshUpdate for commits took 3.800611ms","time":"2023-08-12T04:25:04-07:00"}
+{"level":"info","msg":"refreshing the following scopes in sync mode: files","time":"2023-08-12T04:25:07-07:00"}
+{"level":"info","msg":"refreshed merge conflicts in 25.561µs","time":"2023-08-12T04:25:07-07:00"}
+{"level":"debug","msg":"using cache for key status.showUntrackedFiles","time":"2023-08-12T04:25:07-07:00"}
+{"command":"git status --untracked-files=all --porcelain -z","level":"debug","msg":"RunCommand","time":"2023-08-12T04:25:07-07:00"}
+{"level":"info","msg":"git status --untracked-files=all --porcelain -z (22.122461ms)","time":"2023-08-12T04:25:07-07:00"}
+{"level":"info","msg":"refreshed files in 22.691732ms","time":"2023-08-12T04:25:07-07:00"}
+{"level":"info","msg":"Refresh took 23.030451ms","time":"2023-08-12T04:25:07-07:00"}
+{"level":"info","msg":"postRefreshUpdate for submodules took 10.867µs","time":"2023-08-12T04:25:07-07:00"}
+{"level":"info","msg":"postRefreshUpdate for files took 9.354µs","time":"2023-08-12T04:25:07-07:00"}
+{"level":"info","msg":"refreshing the following scopes in sync mode: files","time":"2023-08-12T04:25:17-07:00"}
+{"level":"debug","msg":"using cache for key status.showUntrackedFiles","time":"2023-08-12T04:25:17-07:00"}
+{"level":"info","msg":"refreshed merge conflicts in 23.106µs","time":"2023-08-12T04:25:17-07:00"}
+{"command":"git status --untracked-files=all --porcelain -z","level":"debug","msg":"RunCommand","time":"2023-08-12T04:25:17-07:00"}
+{"level":"info","msg":"git status --untracked-files=all --porcelain -z (25.705483ms)","time":"2023-08-12T04:25:17-07:00"}
+{"level":"info","msg":"refreshed files in 26.222872ms","time":"2023-08-12T04:25:17-07:00"}
+{"level":"info","msg":"Refresh took 26.500429ms","time":"2023-08-12T04:25:17-07:00"}
+{"level":"info","msg":"postRefreshUpdate for submodules took 22.052µs","time":"2023-08-12T04:25:17-07:00"}
+{"level":"info","msg":"postRefreshUpdate for files took 21.515µs","time":"2023-08-12T04:25:17-07:00"}
